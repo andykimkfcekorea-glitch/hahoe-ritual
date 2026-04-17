@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>네 번째 흔적</title>
+    <style>
+        :root { --bg: #121212; --text: #EAEAEA; --gold: #D4AF37; --red: #8B0000; }
+        body { background-color: var(--bg); color: var(--text); font-family: 'Malgun Gothic', sans-serif; display: flex; flex-direction: column; align-items: center; justify-content: center; min-height: 100vh; margin: 0; text-align: center; padding: 20px; box-sizing: border-box; }
+        .container { border: 1px solid rgba(212, 175, 55, 0.3); border-radius: 8px; padding: 30px 20px; max-width: 400px; width: 100%; box-shadow: 0 0 15px rgba(212, 175, 55, 0.1); }
+        .mystic-icon { font-size: 3rem; color: var(--gold); margin-bottom: 15px; animation: fast-pulse 1s infinite; }
+        h1 { font-size: 1.3rem; color: var(--gold); margin-bottom: 20px; }
+        .reaction { color: #A8C3BC; font-style: italic; margin-bottom: 25px; }
+        .riddle { background: rgba(255,255,255,0.05); padding: 15px; border-left: 3px solid var(--red); margin: 20px 0; font-weight: bold; }
+        .btn { display: inline-block; padding: 12px 24px; background: transparent; color: var(--gold); border: 1px solid var(--gold); border-radius: 4px; text-decoration: none; font-weight: bold; }
+        @keyframes fast-pulse { 0%, 100% { transform: scale(1); opacity: 0.6; } 50% { transform: scale(1.1); opacity: 1; color: var(--red); } }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="mystic-icon">☴</div>
+        <h1>저승의 시간</h1>
+        <div class="reaction">"문이 더 크게 열리고 있다. 서둘러라." [cite: 66, 69]</div>
+        <div class="riddle">수수께끼: 사람은 지나가나, 혼은 머무는 곳. 모래가 다 떨어지기 전에 진짜를 골라라. [cite: 66, 118]</div>
+        <p>저승사자가 당신을 지켜보고 있습니다. [cite: 69]</p>
+        <a href="page6.html" class="btn">최종 봉인식으로</a>
+    </div>
+</body>
+</html>
